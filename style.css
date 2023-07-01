@@ -1,0 +1,91 @@
+/* 
+--clr-grey-1: hsl(209, 61%, 16%);
+        --clr-grey-2: hsl(211, 39%, 23%);
+        --clr-grey-3: hsl(209, 34%, 30%);
+        --clr-grey-4: hsl(209, 28%, 39%);
+        --clr-grey-5: hsl(210, 22%, 49%);
+        --clr-grey-6: hsl(209, 23%, 60%);
+        --clr-grey-7: hsl(211, 27%, 70%);
+        --clr-grey-8: hsl(210, 31%, 80%);
+        --clr-grey-9: hsl(212, 33%, 89%);
+        --clr-grey-10: hsl(210, 36%, 96%);
+        --clr-coral: coral;
+*/
+
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.Container{
+    width: 400px;
+    box-shadow: 0 8px 12px rgba(0,0,0,0.3);
+    padding: 20px;
+    margin: 0 10px;
+    border-radius: 10px;
+}
+
+h2{
+    font-family: cursive;
+    color: hsl(209, 34%, 30%);
+}
+
+#Textarea{
+    width: 90%;
+    height: 100px;
+    resize: none;
+    letter-spacing: 1.5px;
+    font-size: 18px;
+    color: hsl(209, 23%, 60%);
+    padding: 10px;
+    border: 2px solid hsl(211, 27%, 70%);
+    outline: none;
+}
+
+.Result{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5px ;
+}
+
+p{
+    font-size: 18px;
+    color: hsl(211, 27%, 70%);
+}
+
+#Total{
+  color: slategray;
+  font-weight: 900;
+}
+
+#Remaining{
+    color: orangered;
+    font-weight: 900;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
